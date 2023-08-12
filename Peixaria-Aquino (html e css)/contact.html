@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Peixaria Aquino Mar</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+    <link href="css/all.min.css" rel="stylesheet" />
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+	<link rel="shortcut icon" sizes="57x57" href="./peixe.png">
+</head>
+<!--
+
+Simple House
+
+https://templatemo.com/tm-539-simple-house
+
+-->
+<body> 
+
+	<div class="container">
+	<!-- Top box -->
+		<!-- Logo & Site Name -->
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/simple-house-01.jpg">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<img src="img/simple-house-logo.png" alt="Logo" class="tm-site-logo" /> 
+							<div class="tm-site-text-box">
+								<h1 class="tm-site-title">Peixaria Aquino Mar</h1>
+								<h6 class="tm-site-description">Peixe fresco e barato é aqui</h6>	
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link">HOME</a></li>
+								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link">SOBRE</a></li>
+								<li class="tm-nav-li"><a href="contact.html" class="tm-nav-link active">CONTATO</a></li>
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<main>
+			<header class="row tm-welcome-section">
+				<h2 class="col-12 text-center tm-section-title">Para pedidos e informações</h2>
+				
+			</header>
+
+			<div class="tm-container-inner-2 tm-contact-section">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="tm-address-box">
+							<h4 class="tm-info-title tm-text-success">NOSSO ENDEREÇO</h4>
+							<address>
+								Rua Papa João XXIII, 2651 - Tomba - Feira de Santana/Bahia.
+							</address>
+							<a href="tel:75981532838" class="tm-contact-link">
+								<i class="fas fa-phone tm-contact-icon"></i>75 98153-2838
+							</a>
+							<a href="mailto:aquinomar@gmail.com" class="tm-contact-link">
+								<i class="fas fa-envelope tm-contact-icon"></i>aquinomar@gmail.com
+							</a>
+							<br/>
+							<a href="https://www.instagram.com/aquinomar_pescados/" class="tm-social-link">
+								<i class="fab fa-instagram tm-contact-icon"></i>
+							</a>
+							<div class="tm-contact-social">
+								<!--<a href="https://www.instagram.com/aquinomar_pescados/" class="tm-social-link"><i class="fab fa-instagram tm-social-icon">@aquinomar_pescados</i></a>-->
+								<!--<a href="https://fb.com/templatemo" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>-->
+								<!--<a href="#" class="tm-social-link"><i class="fab fa-twitter tm-social-icon"></i></a>-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+           
+			<div class="tm-container-inner-2 tm-map-section">
+				<div class="row">
+					<div class="col-12">
+						<div class="tm-map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1949.2535404017508!2d-38.95843841557251!3d-12.28160034577978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71437b2bc304f69%3A0x3a75956a4d10c4eb!2sR.%20Papa%20Jo%C3%A3o%20XXIII%2C%202651%20-%20Ch%C3%A1cara%20S%C3%A3o%20Cosme%2C%20Feira%20de%20Santana%20-%20BA%2C%2044004-005!5e0!3m2!1spt-BR!2sbr!4v1619895588643!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+								</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="tm-footer text-center">
+			<p>Desenvolvido por <a rel="nofollow" href="https://www.fegueredo.com.br">Paulo Fegueredo</a> &copy; 2021 </p>
+		</footer>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+			
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+			    var panel = this.nextElementSibling;
+			    if (panel.style.maxHeight) {
+			      panel.style.maxHeight = null;
+			    } else {
+			      panel.style.maxHeight = panel.scrollHeight + "px";
+			    }
+			  });
+			}	
+		});
+	</script>
+</body>
+</html>
